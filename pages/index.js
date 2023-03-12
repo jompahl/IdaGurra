@@ -6,7 +6,7 @@ import "react-jigsaw-puzzle/lib/jigsaw-puzzle.css";
 import React, { useState } from "react";
 
 export default function Home() {
-  const [solved, setText] = useState(false);
+  const [solved, setText] = useState(true);
 
   const set = () => {
     setText(true);
