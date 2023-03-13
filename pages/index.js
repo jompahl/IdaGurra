@@ -41,7 +41,7 @@ export default function Home() {
         height: solved ? "100%" : "100vh",
         width: "100%",
         background:
-          "linear-gradient(0deg, rgb(233,233,233), rgba(233, 233, 233, 0.7)), url(/images/sunset.jpg)",
+          "linear-gradient(0deg, rgb(233,233,233), rgba(233, 233, 233, 0.5)), url(/images/sunset.jpg)",
         backgroundSize: "cover",
       }}
     >
@@ -72,19 +72,18 @@ export default function Home() {
               >
                 Nu är det äntligen dags att fira vår kärlek och ni är varmt
                 välkomna!
+                <br></br>
+                <br></br>3 JUNI 2023
               </b>
               <br></br>
               <b>Vigsel:</b> Vigseln börjar kl. 13.00 i Gustav Adolfs kyrka,
               <a onClick={() => showInMapClicked(false)}>
                 {" "}
-                Carl Krooks gata 36, Helsingborg
+                Carl Krooks gata 36
               </a>
               <br></br>
               <b>Fest:</b> Middag och fest i Oxhallen,{" "}
-              <a onClick={() => showInMapClicked(true)}>
-                {" "}
-                Bredgatan 25, Helsingborg
-              </a>
+              <a onClick={() => showInMapClicked(true)}> Bredgatan 25</a>
               <br></br>
               <b>Klädsel:</b> Kavaj <br></br>
               <br></br>
@@ -113,8 +112,21 @@ export default function Home() {
                 saragrottling@gmail.com
               </a> */}
               <br></br>
+              <br></br>
+              <p>
+                <b style={{ display: "flex", justifyContent: "center" }}>
+                  OSA:
+                </b>{" "}
+                Senast 26 mars för er som inte redan har meddelat. Informera oss
+                samtidigt om eventuella allergier och matpreferenser
+              </p>
             </p>
-            <StaticGoogleMap
+
+            <div className="map">
+              <img src="/images/karta.jpg"></img>
+            </div>
+
+            {/* <StaticGoogleMap
               size="600x600"
               apiKey="AIzaSyBY3NyQJO8KUYmIoQanyPF5ozjSPdF7d4Y"
               className="map"
@@ -122,16 +134,11 @@ export default function Home() {
               <Marker.Group label="L" color="green">
                 <Marker location="56.034052,12.703821" />
               </Marker.Group>
-            </StaticGoogleMap>
+            </StaticGoogleMap> */}
             {/* <p>
               Adress:{" "}
               <a onClick={() => showInMapClicked()}>Landstormsvägen 31</a>
             </p> */}
-            <p>
-              <b style={{ display: "flex", justifyContent: "center" }}>OSA:</b>{" "}
-              Senast 26 mars för er som inte redan har meddelat. Informera oss
-              samtidigt om eventuella allergier och matpreferenser
-            </p>
 
             {/* <button
               style={{

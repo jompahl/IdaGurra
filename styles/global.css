@@ -22,7 +22,7 @@ body {
   justify-content: center;
   height: 100px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(131, 139, 121, 0.9);
   position: sticky;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
