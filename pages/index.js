@@ -122,7 +122,7 @@ export default function Home() {
               </p>
             </p>
 
-            <div className="map">
+            <div className="map" style={{ marginBottom: "50px" }}>
               <img src="/images/karta.jpg"></img>
             </div>
 
