@@ -88,9 +88,11 @@ export default function Home() {
               <b>Klädsel:</b> Kavaj <br></br>
               <br></br>
               Kontakta våra fantastiska toastmasters{" "}
-              <a href="mailto:toastsson@gmail.com">Tobias och Johan</a> om ni
-              vill hålla tal eller göra något annat för oss under dagen. Meddela
-              dem senast 7 maj.
+              <a href="mailto:toastsson@gmail.com">
+                Tobias och Johan (toastsson@gmail.com)
+              </a>{" "}
+              om ni vill hålla tal eller göra något annat för oss under dagen.
+              Meddela dem senast 7 maj.
               <br></br>
               <br></br>
               Sjävklart tycker vi om barn men just idag önskar vi att de stannar
