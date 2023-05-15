@@ -102,7 +102,7 @@ export default function Home() {
               Det finaste för oss är såklart att få fira vår stora dag
               tillsammans med er. Vill ni ge oss någonting så önskar vi gärna
               bidrag till en resa, en upplevelse eller presentkort på
-              restaurang.
+              restaurang. Vårt bröllopskonto (Länsförsäkringar): 9060.35.431.97
               <br></br>
               <br></br>
               Från Helsingborg C till Gustav Adolfs kyrka tar det ca 10 minuter
